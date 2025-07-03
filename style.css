@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
+
+.accordion {
+  width: 780px;
+  margin: 100px auto;
+}
+
+/*
+  -----------------
+  ITEM 1
+  -----------------
+  */
+.item-1 {
+  padding: 24px;
+}
+.item-1 .header {
+  margin-bottom: 20px;
+}
+.item-1 .number {
+  color: #adb5bd;
+}
+
+.item-1 .text {
+  color: #495057;
+}
+
+/*
+  -----------------
+  ITEM 2
+  -----------------
+  */
+.item-2 {
+  padding: 24px;
+  border-top: 5px solid #087f5b;
+}
+.number,
+.text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #087f5b;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.icon {
+  width: 24px;
+  stroke: #087f5b;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 70px 1fr 70px;
+  margin-bottom: 40px;
+}
+.header .number {
+  justify-self: center;
+}
+.header .icon {
+  justify-self: center;
+  align-self: center;
+}
+.middle-box {
+  margin: 0 30px;
+}
+
+.middle-box p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+.middle-box ul {
+  color: #adb5bd;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+/*
+  -----------------
+  ITEM 3
+  -----------------
+  */
+.item-3 {
+  padding: 24px;
+}
+.item-3 .header {
+  margin-top: 20px;
+}
+.item-3 .number {
+  color: #adb5bd;
+}
+
+.item-3 .text {
+  color: #495057;
+}
