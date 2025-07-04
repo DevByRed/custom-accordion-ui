@@ -46,7 +46,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd Kanban-Board
+  cd custom-accordion-ui
 ```
 
 Locate the file named
